@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: ffd3b6b3566f4c04d9f7d9b63bd7f595
-=======
 guid: 4bcff4e63eccc5f4e803eb4e04043f12
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -38,11 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-<<<<<<< HEAD
-    filterMode: 0
-=======
     filterMode: 1
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,11 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
-  spriteMode: 2
-=======
   spriteMode: 1
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -93,11 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-    buildTarget: WebGL
-=======
     buildTarget: Standalone
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -110,11 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-    buildTarget: Standalone
-=======
     buildTarget: Windows Store Apps
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -141,74 +121,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
-    sprites:
-    - serializedVersion: 2
-      name: Fae_nolampleft_3_0
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 3
-        width: 23
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8118aaa2fb8aafc4bafa2ff256eda076
-      internalID: 234344021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fae_nolampleft_3_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 4
-        width: 29
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2f3ebe3deed7db48889c83af3fd28d2
-      internalID: -1359959783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fae_nolampleft_3_2
-      rect:
-        serializedVersion: 2
-        x: 68
-        y: 5
-        width: 29
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e216bbd36122d524e941523890eac83f
-      internalID: -800503985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-=======
     sprites: []
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
     outline: []
     physicsShape: []
     bones: []
@@ -219,14 +132,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
-    nameFileIdTable:
-      Fae_nolampleft_3_0: 234344021
-      Fae_nolampleft_3_1: -1359959783
-      Fae_nolampleft_3_2: -800503985
-=======
     nameFileIdTable: {}
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

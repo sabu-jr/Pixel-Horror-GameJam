@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 8229e429a81d79948a00523d1cfa9c3c
-=======
 guid: fae84f8803cfa9c4a8de40e95df0bf4a
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -85,11 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-    buildTarget: WebGL
-=======
     buildTarget: Standalone
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -102,11 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD
-    buildTarget: Standalone
-=======
     buildTarget: Windows Store Apps
->>>>>>> 12ada5f1ed101e9e3e4c2f24ed31732a5c0ce8b7
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
