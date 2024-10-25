@@ -119,7 +119,9 @@
     <Compile Include="Assets\Scripts\Scene2\Scene2StoryController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Scene3\Scene3Progression.cs" />
+    <Compile Include="Assets\Scene5PropSelected.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2FlorenceFollowLuna.cs" />
+    <Compile Include="Assets\Scene5CameraMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
