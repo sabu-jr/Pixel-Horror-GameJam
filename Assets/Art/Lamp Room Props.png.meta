@@ -43,17 +43,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -121,18 +121,360 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
-    physicsShape: []
+    sprites:
+    - serializedVersion: 2
+      name: Lamp Room Props_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 227
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3725ce77fcc764aabdab4a9ff1729e
+      internalID: 2080815329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 232
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd67d4e0da4040d45912201f3c80ef85
+      internalID: 996338640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 199
+        width: 77
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c503cebf707bdef43b814f818b598b6b
+      internalID: 1437878868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 171
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe913dfcef5e574fa5060d976ee5496
+      internalID: 157404577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 171
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85608bdf8b8605f41bad1ba93a471ab3
+      internalID: -728550242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_5
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 171
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72dc2df25d9fee4a82cd993c3326e9a
+      internalID: 2127103303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 171
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ab8430a2505fa48a249ca12ae97581
+      internalID: -1639365611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 98
+        width: 65
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dac642b9500ab24ea279a9bccfc843c
+      internalID: -220124099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 41
+        width: 79
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4284f4169fb888345a5788c440af0d4e
+      internalID: 1933805944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp Room Props_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 41
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c388139bf3d324eb71b082b8893958
+      internalID: -1723056778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -31.763428, y: -58.876656}
+      - {x: -34, y: -116.5}
+      - {x: 49, y: -116.5}
+      - {x: 48.627243, y: -59.510895}
+      - {x: 37.154083, y: -59.063026}
+    - - {x: 62, y: -66.5}
+      - {x: 60, y: -75.5}
+      - {x: 60, y: -115.5}
+      - {x: 65, y: -116.5}
+      - {x: 98, y: -116.5}
+      - {x: 103, y: -109.5}
+      - {x: 103, y: -86.5}
+      - {x: 97, y: -66.5}
+    - - {x: -125, y: 48.5}
+      - {x: -126, y: 46.5}
+      - {x: -126, y: 13.5}
+      - {x: -101, y: 13.5}
+      - {x: -100, y: 15.5}
+      - {x: -100, y: 48.5}
+    - - {x: -100, y: 46.5}
+      - {x: -100, y: 13.5}
+      - {x: -75, y: 13.5}
+      - {x: -74, y: 15.5}
+      - {x: -74, y: 48.5}
+      - {x: -98, y: 48.5}
+    - - {x: -72, y: 48.5}
+      - {x: -73, y: 46.5}
+      - {x: -73, y: 13.5}
+      - {x: -48, y: 13.5}
+      - {x: -47, y: 15.5}
+      - {x: -47, y: 48.5}
+    - - {x: -45, y: 48.5}
+      - {x: -47, y: 46.5}
+      - {x: -47, y: 13.5}
+      - {x: -23, y: 13.5}
+      - {x: -21, y: 15.5}
+      - {x: -21, y: 48.5}
+    - - {x: -8, y: 108.5}
+      - {x: -8, y: 41.5}
+      - {x: 73, y: 41.5}
+      - {x: 73, y: 108.5}
+    - - {x: -108, y: 104.5}
+      - {x: -116, y: 104.5}
+      - {x: -125, y: 90.5}
+      - {x: -125, y: 79.5}
+      - {x: -120, y: 69.5}
+      - {x: -103, y: 69.5}
+      - {x: -97, y: 75.5}
+      - {x: -96, y: 80.5}
+      - {x: -96, y: 88.5}
+    - - {x: -56, y: 123.5}
+      - {x: -70, y: 105.5}
+      - {x: -70, y: 74.5}
+      - {x: -46, y: 74.5}
+      - {x: -35, y: 78.5}
+      - {x: -35, y: 98.5}
+      - {x: -47, y: 123.5}
+    - - {x: -35.03353, y: -58.410378}
+      - {x: -33.34395, y: -16.716537}
+      - {x: 49.751328, y: -16.957916}
+      - {x: 49.02722, y: -57.927643}
+    physicsShape:
+    - - {x: -33, y: -59.5}
+      - {x: -34, y: -116.5}
+      - {x: 49, y: -116.5}
+      - {x: 47, y: -59.5}
+      - {x: 41, y: -59.5}
+    - - {x: 62, y: -66.5}
+      - {x: 60, y: -75.5}
+      - {x: 60, y: -115.5}
+      - {x: 65, y: -116.5}
+      - {x: 98, y: -116.5}
+      - {x: 103, y: -109.5}
+      - {x: 103, y: -86.5}
+      - {x: 97, y: -66.5}
+    - - {x: -125, y: 48.5}
+      - {x: -126, y: 46.5}
+      - {x: -126, y: 13.5}
+      - {x: -101, y: 13.5}
+      - {x: -100, y: 15.5}
+      - {x: -100, y: 48.5}
+    - - {x: -100, y: 46.5}
+      - {x: -100, y: 13.5}
+      - {x: -75, y: 13.5}
+      - {x: -74, y: 15.5}
+      - {x: -74, y: 48.5}
+      - {x: -98, y: 48.5}
+    - - {x: -72, y: 48.5}
+      - {x: -73, y: 46.5}
+      - {x: -73, y: 13.5}
+      - {x: -48, y: 13.5}
+      - {x: -47, y: 15.5}
+      - {x: -47, y: 48.5}
+    - - {x: -45, y: 48.5}
+      - {x: -47, y: 46.5}
+      - {x: -47, y: 13.5}
+      - {x: -23, y: 13.5}
+      - {x: -21, y: 15.5}
+      - {x: -21, y: 48.5}
+    - - {x: -8, y: 108.5}
+      - {x: -8, y: 41.5}
+      - {x: 73, y: 41.5}
+      - {x: 73, y: 108.5}
+    - - {x: -108, y: 104.5}
+      - {x: -116, y: 104.5}
+      - {x: -125, y: 90.5}
+      - {x: -125, y: 79.5}
+      - {x: -120, y: 69.5}
+      - {x: -103, y: 69.5}
+      - {x: -97, y: 75.5}
+      - {x: -96, y: 80.5}
+      - {x: -96, y: 88.5}
+    - - {x: -56, y: 123.5}
+      - {x: -70, y: 105.5}
+      - {x: -70, y: 74.5}
+      - {x: -46, y: 74.5}
+      - {x: -35, y: 78.5}
+      - {x: -35, y: 98.5}
+      - {x: -47, y: 123.5}
+    - - {x: -32, y: -58.5}
+      - {x: -32, y: -17.5}
+      - {x: 44, y: -17.5}
+      - {x: 44, y: -58.5}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lamp Room Props_0: 2080815329
+      Lamp Room Props_1: 996338640
+      Lamp Room Props_2: 1437878868
+      Lamp Room Props_3: 157404577
+      Lamp Room Props_4: -728550242
+      Lamp Room Props_5: 2127103303
+      Lamp Room Props_6: -1639365611
+      Lamp Room Props_7: -220124099
+      Lamp Room Props_8: 1933805944
+      Lamp Room Props_9: -1723056778
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
