@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scene5beginriddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5beginriddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scene5couchgoblininteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5couchgoblininteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scene5cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5cameramove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Scene5BeginRiddle.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5BeginRiddle.cs",
+              "RelativeDocumentMoniker": "Assets\\Scene5BeginRiddle.cs",
+              "ToolTip": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5BeginRiddle.cs",
+              "RelativeToolTip": "Assets\\Scene5BeginRiddle.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAA3wCkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T22:49:03.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Scene5CameraMove.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5CameraMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scene5CameraMove.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Scene5CameraMove.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T21:02:00.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T21:02:00.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Scene3LunaMovement.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene3\\Scene3LunaMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene3\\Scene3LunaMovement.cs",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Scene5PropSelected.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5PropSelected.cs",
               "RelativeDocumentMoniker": "Assets\\Scene5PropSelected.cs",
@@ -67,8 +83,7 @@
               "RelativeToolTip": "Assets\\Scene5PropSelected.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAAwFwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T20:28:52.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T20:28:52.218Z"
             },
             {
               "$type": "Document",
@@ -78,14 +93,14 @@
               "RelativeDocumentMoniker": "Assets\\Scene5CouchGoblinInteraction.cs",
               "ToolTip": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5CouchGoblinInteraction.cs",
               "RelativeToolTip": "Assets\\Scene5CouchGoblinInteraction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-25T19:14:35.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "LunaPlayerMovementScene1.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\LunaPlayerMovementScene1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\LunaPlayerMovementScene1.cs",
