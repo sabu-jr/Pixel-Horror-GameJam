@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'en' Physical Memory: 16286 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16085 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity 2022.3.11f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
+D:/UnityProjects/New folder/Pixel-Horror-GameJam
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62793
-Successfully changed project path to: C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
-C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
+63628
+Successfully changed project path to: D:/UnityProjects/New folder/Pixel-Horror-GameJam
+D:/UnityProjects/New folder/Pixel-Horror-GameJam
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,67 @@ C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13132] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2622634410 [EditorId] 2622634410 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [26228] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 4104245673 [EditorId] 4104245673 [Version] 1048832 [Id] WindowsEditor(7,Ashil) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13132] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2622634410 [EditorId] 2622634410 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [26228] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 4104245673 [EditorId] 4104245673 [Version] 1048832 [Id] WindowsEditor(7,Ashil) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 8.74 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 34.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/New folder/Pixel-Horror-GameJam/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
     Vendor:   NVIDIA
-    VRAM:     3935 MB
-    Driver:   31.0.15.5212
+    VRAM:     8033 MB
+    Driver:   31.0.15.4584
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity 2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003289 seconds.
-- Loaded All Assemblies, in  0.230 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016240 seconds.
+- Loaded All Assemblies, in  0.632 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.183 seconds
-Domain Reload Profiling: 413ms
-	BeginReloadAssembly (74ms)
+- Finished resetting the current domain, in  0.398 seconds
+Domain Reload Profiling: 1028ms
+	BeginReloadAssembly (232ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (88ms)
-		LoadAssemblies (73ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (232ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (87ms)
-			TypeCache.Refresh (86ms)
-				TypeCache.ScanAssembly (77ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (184ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (208ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (399ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (142ms)
+		SetupLoadedEditorAssemblies (299ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (96ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +117,56 @@ Domain Reload Profiling: 413ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.454 seconds
-Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.064 seconds
+Refreshing native plugins compatible for Editor in 6.74 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.489 seconds
-Domain Reload Profiling: 941ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  1.165 seconds
+Domain Reload Profiling: 2228ms
+	BeginReloadAssembly (217ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (284ms)
-		LoadAssemblies (219ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (707ms)
+		LoadAssemblies (565ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (94ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (489ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1166ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (381ms)
+		SetupLoadedEditorAssemblies (925ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (688ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.23 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 7.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4476 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (63.2 KB). Loaded Objects now: 4939.
-Memory consumption went from 156.3 MB to 156.2 MB.
-Total: 3.176800 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.654500 ms  DeleteObjects: 0.115600 ms)
+Unloading 71 unused Assets / (62.5 KB). Loaded Objects now: 4938.
+Memory consumption went from 156.0 MB to 155.9 MB.
+Total: 4.178100 ms (FindLiveObjects: 0.396200 ms CreateObjectMapping: 0.161200 ms MarkObjects: 3.459400 ms  DeleteObjects: 0.160100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -172,18 +175,83 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1190188.155212 seconds.
+  path: Assets/SFX/goblin roar strong1.wav
+  artifactKey: Guid(37c0fc52daaab664786b732fce80772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/goblin roar strong1.wav using Guid(37c0fc52daaab664786b732fce80772b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f116b69f0a975625ee031e205d3f5519') in 0.136443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SFX/dialogue box 1 (typewriter).wav
+  artifactKey: Guid(0197c534d540cad4789ee501fcc39d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 1 (typewriter).wav using Guid(0197c534d540cad4789ee501fcc39d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7eac35d47d21d3be8d3d145879355e3') in 0.009296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SFX/dialogue box 3 (typewriter).wav
+  artifactKey: Guid(1030a0ed7746f0847bf4057ac91686e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 3 (typewriter).wav using Guid(1030a0ed7746f0847bf4057ac91686e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74fa69d1f90a572d598c4c4ec2129042') in 0.014701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SFX/grass footstep 1.wav
+  artifactKey: Guid(00d48406c8bed254c975bc98e48b9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/grass footstep 1.wav using Guid(00d48406c8bed254c975bc98e48b9e7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d645b2f2bc4f57c7ed8a652f9b0c5ae') in 0.009887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SFX/grass footstep 3.wav
+  artifactKey: Guid(25309c35ac686f14ab6255b120c0e32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/grass footstep 3.wav using Guid(25309c35ac686f14ab6255b120c0e32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d9c894ff72990c5c12da39f7e9e96e') in 0.009794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SFX/goblin roar 1.wav
+  artifactKey: Guid(affce859b17231142ac1d3571e261a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/goblin roar 1.wav using Guid(affce859b17231142ac1d3571e261a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75821549d7f13b092fdc6bb5a20fbfce') in 0.009329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SFX/dialogue box 4 (typewriter).wav
+  artifactKey: Guid(75eff9379c1ce9c48855a39c36c0271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 4 (typewriter).wav using Guid(75eff9379c1ce9c48855a39c36c0271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71242d370e952aafa81e23195818f915') in 0.010608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SFX/door open 1.wav
+  artifactKey: Guid(5726f698542eb8a47beef5245a64aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/door open 1.wav using Guid(5726f698542eb8a47beef5245a64aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b52c2f88404c28d4e32256ea96bad9') in 0.011545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.89 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4939.
-Memory consumption went from 82.2 MB to 82.2 MB.
-Total: 3.265800 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.865000 ms  DeleteObjects: 0.016000 ms)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 4949.
+Memory consumption went from 86.0 MB to 86.0 MB.
+Total: 3.577000 ms (FindLiveObjects: 0.302400 ms CreateObjectMapping: 0.127000 ms MarkObjects: 3.128000 ms  DeleteObjects: 0.018800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -199,184 +267,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 52319.803124 seconds.
-  path: Assets/SFX/baghover.wav
-  artifactKey: Guid(8066789a5c0044249a266d32a74a9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/baghover.wav using Guid(8066789a5c0044249a266d32a74a9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0afcc04c61e7984d5ed21f7629fc334') in 0.073642 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/SFX/concrete footstep 3.wav
-  artifactKey: Guid(7b313913d0cf7cd469edbcec5c087800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/concrete footstep 3.wav using Guid(7b313913d0cf7cd469edbcec5c087800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b4f82a00531452733ded4160cb2c04') in 0.014105 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SFX/dialogue box 1 (typewriter).wav
-  artifactKey: Guid(0197c534d540cad4789ee501fcc39d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 1 (typewriter).wav using Guid(0197c534d540cad4789ee501fcc39d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a6f03ce0e30750bb6f5d5ce6cea7f5') in 0.010481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SFX/grass footstep 2.wav
-  artifactKey: Guid(e1a2b93f5745f4b4a96607129440d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/grass footstep 2.wav using Guid(e1a2b93f5745f4b4a96607129440d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3b1bb7cac318438650c0a72c89d007') in 0.025889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SFX/new fae sound tinkle 2.wav
-  artifactKey: Guid(ec931e5a9b36099408e980548e094964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/new fae sound tinkle 2.wav using Guid(ec931e5a9b36099408e980548e094964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b459dd44cbec65ed0e68622d805ab4f') in 0.065945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/SFX/dialogue box 2 (typewriter).wav
-  artifactKey: Guid(0deeaca341dfdb64ba1e40969b60ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 2 (typewriter).wav using Guid(0deeaca341dfdb64ba1e40969b60ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7945ffeabeac8134327355d7f8debc9') in 0.051854 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/SFX/button click 5.wav
-  artifactKey: Guid(4f7cc381fed377045a62d077d245f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/button click 5.wav using Guid(4f7cc381fed377045a62d077d245f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7294896a7bbbb592f8fed2dabf725d') in 0.012149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/SFX/grass footstep 3.wav
-  artifactKey: Guid(25309c35ac686f14ab6255b120c0e32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/grass footstep 3.wav using Guid(25309c35ac686f14ab6255b120c0e32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184f2df5c9c0c34f14fc54c0a03c286f') in 0.065948 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SFX/button click 3.wav
-  artifactKey: Guid(cf01a5b12d0bc1a42b460ac426995b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/button click 3.wav using Guid(cf01a5b12d0bc1a42b460ac426995b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770999e72b9785f4528c1c7834306add') in 0.003716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SFX/goblin roar 1.wav
-  artifactKey: Guid(affce859b17231142ac1d3571e261a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/goblin roar 1.wav using Guid(affce859b17231142ac1d3571e261a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a1a18e3e1b4eec0441d4495cd60354') in 0.003443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/SFX/new fae sound tinkle 3.wav
-  artifactKey: Guid(d6416b83d85fa544baed26fc6fa99236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/new fae sound tinkle 3.wav using Guid(d6416b83d85fa544baed26fc6fa99236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d49178ca535cf93730557a37b881574') in 0.003540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SFX/dialogue box 4 (typewriter).wav
-  artifactKey: Guid(75eff9379c1ce9c48855a39c36c0271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 4 (typewriter).wav using Guid(75eff9379c1ce9c48855a39c36c0271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd48bd6e2402d9a45d1c5ed365b7331f') in 0.003645 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/SFX/dialogue box 4 (keyboard).wav
-  artifactKey: Guid(33e68ab9555b23b4db4814bec551cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 4 (keyboard).wav using Guid(33e68ab9555b23b4db4814bec551cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784457f90bfd267178e11786cfb53c8') in 0.003299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/SFX/door open 1.wav
-  artifactKey: Guid(5726f698542eb8a47beef5245a64aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/door open 1.wav using Guid(5726f698542eb8a47beef5245a64aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1944bfefc9ff269e93d59262c4583ca') in 0.005524 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/SFX/dialogue box 2 (keyboard).wav
-  artifactKey: Guid(55e94505d75aee240955c9f20b3f27e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 2 (keyboard).wav using Guid(55e94505d75aee240955c9f20b3f27e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6711291eb2ceaf354d61cb7770ffbd57') in 0.004912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/SFX/grass footstep 6.wav
-  artifactKey: Guid(f54ff0e1dd5dfb94abe4f37e04de0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/grass footstep 6.wav using Guid(f54ff0e1dd5dfb94abe4f37e04de0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06552d1133e965e56e4843c411a7b8c9') in 0.004689 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SFX/concrete footstep 5.wav
-  artifactKey: Guid(0a2b16207c897f0479fe9e100f09b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/concrete footstep 5.wav using Guid(0a2b16207c897f0479fe9e100f09b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa54edfffc2de2a39544506984977813') in 0.004114 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/SFX/dialogue box 3 (typewriter).wav
-  artifactKey: Guid(1030a0ed7746f0847bf4057ac91686e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 3 (typewriter).wav using Guid(1030a0ed7746f0847bf4057ac91686e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0746388829c3e9dda40cd1c72bf6f37e') in 0.004333 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SFX/dog bark twice.wav
-  artifactKey: Guid(e67a868c294af8041bbd5a650ebfac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dog bark twice.wav using Guid(e67a868c294af8041bbd5a650ebfac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a807adf775f6f642f4b15777b4cd1') in 0.003891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SFX/dialogue box 3 (keyboard).wav
-  artifactKey: Guid(330334458894ad34fb28258285d6813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 3 (keyboard).wav using Guid(330334458894ad34fb28258285d6813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72184325e9f4e44ed7ff0f58dd188f52') in 0.003720 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/SFX/dialogue box 1 (keyboard).wav
-  artifactKey: Guid(4878357c3ce9b5044b4cc24206c661e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/dialogue box 1 (keyboard).wav using Guid(4878357c3ce9b5044b4cc24206c661e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18ae10cea1a85c39933910c4794a3e7') in 0.003131 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SFX/concrete footstep 2.wav
-  artifactKey: Guid(fb45392642935c448b4b29c4303218d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SFX/concrete footstep 2.wav using Guid(fb45392642935c448b4b29c4303218d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b608ef314249361807ab641ba404e9') in 0.003730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0

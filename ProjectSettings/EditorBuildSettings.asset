@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene3MainHall.unity
     guid: 9a79badfc0f52824a9282aeade16ca88
   - enabled: 1
-    path: Assets/Scenes/Scene4StaffCorridor.unity
+    path: Assets/Scenes/Scene4StaffCorridorLampFae.unity
     guid: e81f6c1226391884eb07cec226adcd19
   - enabled: 1
     path: Assets/Scenes/GameOver.unity

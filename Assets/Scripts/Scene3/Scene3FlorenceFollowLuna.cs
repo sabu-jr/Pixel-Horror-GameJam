@@ -12,19 +12,27 @@ public class Scene3FlorenceFollowLuna : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Only follow the player if the trigger has been activated
-       // if (shouldFollow)
-       // {
-            // Check the distance between the NPC and the player
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        // Check the distance between the NPC and the player
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            // If the distance is greater than the followDistance, move towards the player
-            if (distanceToPlayer > followDistance)
+        // If the distance is greater than the followDistance, move towards the player
+        if (distanceToPlayer > followDistance)
+        {
+            // Determine if the player is to the right or left of the NPC
+            if (player.position.x > transform.position.x)
             {
-                // Move the NPC towards the player's position
-                transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+                // Player is to the right, so face right
+                transform.localScale = new Vector3(2, transform.localScale.y, transform.localScale.z);
             }
-       // }
+            else
+            {
+                // Player is to the left, so face left
+                transform.localScale = new Vector3(-2, transform.localScale.y, transform.localScale.z);
+            }
+
+            // Move the NPC towards the player's position
+            transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+        }
     }
 
     // Trigger method to detect when player enters the trigger zone

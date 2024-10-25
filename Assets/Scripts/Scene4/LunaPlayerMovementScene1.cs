@@ -18,17 +18,22 @@ public class LunaPlayerMovement : MonoBehaviour
     private GameObject UICanvas;
     [SerializeField]
     private Animator animator;
+    [SerializeField]
+    private GameObject DoorOpenCanvas;
 
 
-    public bool hasKey = false;
+    public bool hasKey;
     private Rigidbody2D rb;
-    private float HorizontalIP;
+    private float HorizontalIP; 
     
     // Start is called before the first frame update
     void Start()
     {
         rb=GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        cameraFollow.position = new Vector3(0, 0, -10);
+        hasKey = false;
+        DoorOpenCanvas.SetActive(false);
     }
 
     // Update is called once per frame
@@ -66,11 +71,11 @@ public class LunaPlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.name == "CameraBoundRight")
         {
-            cameraFollow.position = new Vector2(cameraFollow.position.x + 13.45f, cameraFollow.position.y);
+            cameraFollow.position = new Vector3(10.41f, 0, -10);
         }
         if(collision.gameObject.name == "CameraBoundLeft")
         {
-            cameraFollow.position = new Vector2(cameraFollow.position.x - 13.45f, cameraFollow.position.y);
+            cameraFollow.position = new Vector3(0, 0 ,-10);
         }
         if (collision.gameObject.name == "UITrigger")
         {
@@ -78,9 +83,27 @@ public class LunaPlayerMovement : MonoBehaviour
         }
         if (collision.gameObject.name == "Block1Door" && hasKey)
         {
-            SceneManager.LoadScene(2);
+            
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+             Debug.Log("E pressed");
+            //int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+            //SceneManager.LoadScene(currentSceneIndex + 1);
+            }
+            DoorOpenCanvas.SetActive(true);
         }
-        if( collision.gameObject.name == "Key" && hasKey==false)
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Block1Door" && hasKey)
+        {
+            DoorOpenCanvas.SetActive(false);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "RoomKey" && hasKey == false)
         {
             collision.gameObject.SetActive(false);
             Destroy(collision.gameObject);

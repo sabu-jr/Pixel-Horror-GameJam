@@ -1,32 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static UnityEngine.InputSystem.Controls.AxisControl;
 
 public class Scene4LampFae : MonoBehaviour
 {
-    public GameObject flyingLampFaePrefab; // Reference to the flying lamp fae prefab
-    public GameObject lampPrefab;           // Reference to the lamp prefab
-    public float dropOffset = 0.5f;        // Offset for the dropped lamp's position
+    [SerializeField] private GameObject Roomkey;
+    [SerializeField] private GameObject LampFae;
+    [SerializeField] private GameObject Fae;
+    [SerializeField] private GameObject Lamp;
 
+    private Rigidbody2D rbKey;
+    private Rigidbody2D rbLamp;
+    private SpriteRenderer KeySprite;
+    private void Start()
+    {
+        rbKey = Roomkey.GetComponent<Rigidbody2D>();
+        rbLamp = Lamp.GetComponent<Rigidbody2D>();
+        KeySprite = Roomkey.GetComponent<SpriteRenderer>();
+        KeySprite.enabled = false;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the collider belongs to the player
         if (collision.CompareTag("Player"))
         {
-            DropLampAndTransform();
+            rbKey.gravityScale = 1.0f;
+            KeySprite.enabled = true;
+
+            LampFae.SetActive(false);
+            Lamp.SetActive(true);
+            Fae.SetActive(true);
+            rbLamp.gravityScale = 0.5f;
         }
-    }
 
-    private void DropLampAndTransform()
-    {
-        // Instantiate the lamp at the current position with an offset
-        Vector3 dropPosition = transform.position + Vector3.down * dropOffset;
-        Instantiate(lampPrefab, dropPosition, Quaternion.identity);
-
-        // Replace the current lamp fae with the flying lamp fae
-        Instantiate(flyingLampFaePrefab, transform.position, Quaternion.identity);
-
-        // Destroy the original lamp fae object
-        Destroy(gameObject);
     }
 }
