@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Numerics;
 using UnityEngine;
 
 public class Scene2FlorenceFollowLuna : MonoBehaviour
 {
-    public Transform player;          // Reference to the player's transform
+    public RuleTile.TilingRuleOutput.Transform player;          // Reference to the player's transform
     public float followDistance = 2f; // The distance the NPC will keep from the player
     public float moveSpeed = 3f;      // The speed at which the NPC moves towards the player
     private bool shouldFollow = false; // Whether the NPC should follow the player

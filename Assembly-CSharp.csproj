@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -62,7 +63,6 @@
     <Compile Include="Assets\Scripts\Scene3\Scene3LunaMovement.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2CameraLowerMove.cs" />
     <Compile Include="Assets\Scripts\Scene3\Scene3FlorenceFollowLuna.cs" />
-    <Compile Include="Assets\Scripts\Scene2\Scene2RufusFollowLuna.cs" />
     <Compile Include="Assets\CameraBackwardMove.cs" />
     <Compile Include="Assets\CameraForwardMove.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2PlayerMovement.cs" />
