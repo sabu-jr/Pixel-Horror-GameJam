@@ -15,7 +15,7 @@ C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-52269
+62793
 Successfully changed project path to: C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
 C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24480] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 4238360579 [EditorId] 4238360579 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13132] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2622634410 [EditorId] 2622634410 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24480] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 4238360579 [EditorId] 4238360579 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13132] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2622634410 [EditorId] 2622634410 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 7.38 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 8.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,17 +70,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004293 seconds.
-- Loaded All Assemblies, in  0.241 seconds
+Registered in 0.003289 seconds.
+- Loaded All Assemblies, in  0.230 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.184 seconds
-Domain Reload Profiling: 424ms
-	BeginReloadAssembly (77ms)
+- Finished resetting the current domain, in  0.183 seconds
+Domain Reload Profiling: 413ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -88,25 +88,25 @@ Domain Reload Profiling: 424ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (91ms)
-		LoadAssemblies (76ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (73ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (90ms)
-			TypeCache.Refresh (89ms)
-				TypeCache.ScanAssembly (80ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (77ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
 	FinalizeReload (184ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (140ms)
+		SetupLoadedEditorAssemblies (142ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadAttributes (96ms)
 			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 424ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.480 seconds
-Refreshing native plugins compatible for Editor in 3.36 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.454 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.528 seconds
-Domain Reload Profiling: 1006ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.489 seconds
+Domain Reload Profiling: 941ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (24ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (236ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (219ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (108ms)
-				TypeCache.ScanAssembly (96ms)
-			ScanForSourceGeneratedMonoScriptInfo (19ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (528ms)
+	FinalizeReload (489ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (419ms)
+		SetupLoadedEditorAssemblies (381ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (56ms)
-			ProcessInitializeOnLoadAttributes (327ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4478 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (216.2 KB). Loaded Objects now: 4938.
-Memory consumption went from 156.5 MB to 156.2 MB.
-Total: 3.825700 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.250000 ms MarkObjects: 3.003600 ms  DeleteObjects: 0.213400 ms)
+Unloading 4476 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (63.2 KB). Loaded Objects now: 4939.
+Memory consumption went from 156.3 MB to 156.2 MB.
+Total: 3.176800 ms (FindLiveObjects: 0.248100 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.654500 ms  DeleteObjects: 0.115600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,45 +177,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 39901.513669 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat
-  artifactKey: Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Overlay.mat using Guid(9ad269c99dcf42b7aedefd83dd5a7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cd7637c092ee667b486933e0df6ce2a') in 0.077528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
-  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5522bce034601f1df1a30fe11b38852a') in 0.008952 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de58820364049408ce160fb00f8b92f1') in 0.012154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
-  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea80d938938ae5c49a66159b51aaac6') in 0.195447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.43 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6 unused Assets / (163.5 KB). Loaded Objects now: 4980.
-Memory consumption went from 87.8 MB to 87.7 MB.
-Total: 5.097800 ms (FindLiveObjects: 0.327600 ms CreateObjectMapping: 0.119300 ms MarkObjects: 4.512400 ms  DeleteObjects: 0.137600 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 4939.
+Memory consumption went from 82.2 MB to 82.2 MB.
+Total: 3.265800 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.097700 ms MarkObjects: 2.865000 ms  DeleteObjects: 0.016000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -233,50 +201,178 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 223.169531 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5cc9a23c868004336272e1c414e687') in 0.013567 seconds
+  Time since last request: 52319.803124 seconds.
+  path: Assets/SFX/baghover.wav
+  artifactKey: Guid(8066789a5c0044249a266d32a74a9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/baghover.wav using Guid(8066789a5c0044249a266d32a74a9b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0afcc04c61e7984d5ed21f7629fc334') in 0.073642 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
-  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a063c7dbe86def1f6401a77e74aef4') in 0.028442 seconds
+  Time since last request: 0.000012 seconds.
+  path: Assets/SFX/concrete footstep 3.wav
+  artifactKey: Guid(7b313913d0cf7cd469edbcec5c087800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/concrete footstep 3.wav using Guid(7b313913d0cf7cd469edbcec5c087800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b4f82a00531452733ded4160cb2c04') in 0.014105 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebca1059283b3acb079a03ebbaad048d') in 0.014690 seconds
+  Time since last request: 0.000011 seconds.
+  path: Assets/SFX/dialogue box 1 (typewriter).wav
+  artifactKey: Guid(0197c534d540cad4789ee501fcc39d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 1 (typewriter).wav using Guid(0197c534d540cad4789ee501fcc39d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a6f03ce0e30750bb6f5d5ce6cea7f5') in 0.010481 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
-  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef6fa48b210634ce34e2266af2093a5') in 0.058187 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/SFX/grass footstep 2.wav
+  artifactKey: Guid(e1a2b93f5745f4b4a96607129440d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/grass footstep 2.wav using Guid(e1a2b93f5745f4b4a96607129440d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3b1bb7cac318438650c0a72c89d007') in 0.025889 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SFX/new fae sound tinkle 2.wav
+  artifactKey: Guid(ec931e5a9b36099408e980548e094964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/new fae sound tinkle 2.wav using Guid(ec931e5a9b36099408e980548e094964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b459dd44cbec65ed0e68622d805ab4f') in 0.065945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000012 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
-  artifactKey: Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset using Guid(0161d805a3764c089bef00bfe00793f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d32add93bc3f68d9bc9510348281540') in 0.017039 seconds
+  path: Assets/SFX/dialogue box 2 (typewriter).wav
+  artifactKey: Guid(0deeaca341dfdb64ba1e40969b60ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 2 (typewriter).wav using Guid(0deeaca341dfdb64ba1e40969b60ddc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7945ffeabeac8134327355d7f8debc9') in 0.051854 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SFX/button click 5.wav
+  artifactKey: Guid(4f7cc381fed377045a62d077d245f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/button click 5.wav using Guid(4f7cc381fed377045a62d077d245f9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7294896a7bbbb592f8fed2dabf725d') in 0.012149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/SFX/grass footstep 3.wav
+  artifactKey: Guid(25309c35ac686f14ab6255b120c0e32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/grass footstep 3.wav using Guid(25309c35ac686f14ab6255b120c0e32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184f2df5c9c0c34f14fc54c0a03c286f') in 0.065948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000013 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat
-  artifactKey: Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Surface.mat using Guid(e6b276ec991f467aa14ef1f3cc665993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850fde939d6f48c65a9074715e8fc9ff') in 0.075230 seconds
+  path: Assets/SFX/button click 3.wav
+  artifactKey: Guid(cf01a5b12d0bc1a42b460ac426995b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/button click 3.wav using Guid(cf01a5b12d0bc1a42b460ac426995b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770999e72b9785f4528c1c7834306add') in 0.003716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SFX/goblin roar 1.wav
+  artifactKey: Guid(affce859b17231142ac1d3571e261a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/goblin roar 1.wav using Guid(affce859b17231142ac1d3571e261a47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a1a18e3e1b4eec0441d4495cd60354') in 0.003443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SFX/new fae sound tinkle 3.wav
+  artifactKey: Guid(d6416b83d85fa544baed26fc6fa99236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/new fae sound tinkle 3.wav using Guid(d6416b83d85fa544baed26fc6fa99236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d49178ca535cf93730557a37b881574') in 0.003540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SFX/dialogue box 4 (typewriter).wav
+  artifactKey: Guid(75eff9379c1ce9c48855a39c36c0271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 4 (typewriter).wav using Guid(75eff9379c1ce9c48855a39c36c0271f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd48bd6e2402d9a45d1c5ed365b7331f') in 0.003645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SFX/dialogue box 4 (keyboard).wav
+  artifactKey: Guid(33e68ab9555b23b4db4814bec551cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 4 (keyboard).wav using Guid(33e68ab9555b23b4db4814bec551cc04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784457f90bfd267178e11786cfb53c8') in 0.003299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SFX/door open 1.wav
+  artifactKey: Guid(5726f698542eb8a47beef5245a64aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/door open 1.wav using Guid(5726f698542eb8a47beef5245a64aae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1944bfefc9ff269e93d59262c4583ca') in 0.005524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SFX/dialogue box 2 (keyboard).wav
+  artifactKey: Guid(55e94505d75aee240955c9f20b3f27e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 2 (keyboard).wav using Guid(55e94505d75aee240955c9f20b3f27e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6711291eb2ceaf354d61cb7770ffbd57') in 0.004912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SFX/grass footstep 6.wav
+  artifactKey: Guid(f54ff0e1dd5dfb94abe4f37e04de0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/grass footstep 6.wav using Guid(f54ff0e1dd5dfb94abe4f37e04de0e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06552d1133e965e56e4843c411a7b8c9') in 0.004689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SFX/concrete footstep 5.wav
+  artifactKey: Guid(0a2b16207c897f0479fe9e100f09b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/concrete footstep 5.wav using Guid(0a2b16207c897f0479fe9e100f09b33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa54edfffc2de2a39544506984977813') in 0.004114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/SFX/dialogue box 3 (typewriter).wav
+  artifactKey: Guid(1030a0ed7746f0847bf4057ac91686e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 3 (typewriter).wav using Guid(1030a0ed7746f0847bf4057ac91686e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0746388829c3e9dda40cd1c72bf6f37e') in 0.004333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/SFX/dog bark twice.wav
+  artifactKey: Guid(e67a868c294af8041bbd5a650ebfac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dog bark twice.wav using Guid(e67a868c294af8041bbd5a650ebfac37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1a807adf775f6f642f4b15777b4cd1') in 0.003891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SFX/dialogue box 3 (keyboard).wav
+  artifactKey: Guid(330334458894ad34fb28258285d6813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 3 (keyboard).wav using Guid(330334458894ad34fb28258285d6813c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72184325e9f4e44ed7ff0f58dd188f52') in 0.003720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/SFX/dialogue box 1 (keyboard).wav
+  artifactKey: Guid(4878357c3ce9b5044b4cc24206c661e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/dialogue box 1 (keyboard).wav using Guid(4878357c3ce9b5044b4cc24206c661e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18ae10cea1a85c39933910c4794a3e7') in 0.003131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SFX/concrete footstep 2.wav
+  artifactKey: Guid(fb45392642935c448b4b29c4303218d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/concrete footstep 2.wav using Guid(fb45392642935c448b4b29c4303218d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b608ef314249361807ab641ba404e9') in 0.003730 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
