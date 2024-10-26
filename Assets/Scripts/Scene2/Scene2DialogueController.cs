@@ -57,8 +57,17 @@ public class Scene2DialogueController : MonoBehaviour
             portraitImage.sprite = currentDialogue.speakerPortrait;
             headerText.text = currentDialogue.speakerName;
 
-            // Display the current sentence
-            footerText.text = currentDialogue.sentence;
+                // Display the current sentence
+                footerText.text = currentDialogue.sentence;
+
+            if (currentDialogue.speakerPortrait == null)
+            {
+                portraitImage.enabled = false;
+            }
+            else
+            {
+                portraitImage.enabled = true;
+            }
         }
     }
 

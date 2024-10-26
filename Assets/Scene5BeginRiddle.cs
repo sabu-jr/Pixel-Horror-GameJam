@@ -75,13 +75,13 @@ public class Scene5BeginRiddle : MonoBehaviour
                 }
 
             }
-            if (collision.gameObject.name == "Toolset")
+            if (collision.gameObject.name == "Candle")
             {
                 Destroy(DlgSystem);
                 InfoCanvas.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    tmpText.text = "Book picked";
+                    tmpText.text = "Candle picked";
                     index = 2;
                     InfoCanvas.SetActive(false);
                 }
