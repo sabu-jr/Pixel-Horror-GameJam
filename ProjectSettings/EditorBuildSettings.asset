@@ -18,12 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene3MainHall.unity
     guid: 9a79badfc0f52824a9282aeade16ca88
   - enabled: 1
-    path: Assets/Scenes/Scene4StaffCorridor.unity
+    path: Assets/Scenes/Scene4StaffCorridorLampFae.unity
     guid: e81f6c1226391884eb07cec226adcd19
+  - enabled: 1
+    path: Assets/Scenes/Scene5StaffCorridorCouchGoblin.unity
+    guid: 25ea72c38a429fc4a933e0a670a576f8
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 91000ed8dd2afc34ca4c2058751f3f37
-  - enabled: 0
-    path: Assets/Scenes/Staff CorridorTrap2CouchGoblin.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
