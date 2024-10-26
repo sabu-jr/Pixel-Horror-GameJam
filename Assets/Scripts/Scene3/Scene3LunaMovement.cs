@@ -19,6 +19,15 @@ public class Scene3LunaMovement : MonoBehaviour
         // Get horizontal and vertical input (WASD or arrow keys)
         movement.x = Input.GetAxisRaw("Horizontal");  // Left/Right input
         movement.y = 0;    // Up/Down input
+
+        if (Input.GetAxisRaw("Horizontal")>0)
+        {
+            transform.localScale = new Vector3(2, transform.localScale.y, transform.localScale.z);
+        }
+        if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            transform.localScale = new Vector3(-2, transform.localScale.y, transform.localScale.z);
+        }
     }
 
     void FixedUpdate()
