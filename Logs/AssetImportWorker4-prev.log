@@ -9,11 +9,11 @@ C:\Program Files\Unity 2022.3.11f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker3
+AssetImportWorker4
 -projectPath
 C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
 -logFile
-Logs/AssetImportWorker3.log
+Logs/AssetImportWorker4.log
 -srvPort
 54513
 Successfully changed project path to: C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
@@ -49,12 +49,12 @@ C:/Users/user/Desktop/LUNE/Pixel-Horror-GameJam-main
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24316] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 3389110352 [EditorId] 3389110352 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [10004] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2438849996 [EditorId] 2438849996 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24316] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 3389110352 [EditorId] 3389110352 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10004] Host "[IP] 192.168.1.61 [Port] 0 [Flags] 2 [Guid] 2438849996 [EditorId] 2438849996 [Version] 1048832 [Id] WindowsEditor(7,WINDOWS-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
-Refreshing native plugins compatible for Editor in 7.62 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 9.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,39 +70,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003118 seconds.
-- Loaded All Assemblies, in  0.218 seconds
+Registered in 0.003237 seconds.
+- Loaded All Assemblies, in  0.217 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.176 seconds
-Domain Reload Profiling: 393ms
+- Finished resetting the current domain, in  0.175 seconds
+Domain Reload Profiling: 391ms
 	BeginReloadAssembly (68ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
+		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (85ms)
+	LoadAllAssembliesAndSetupDomain (82ms)
 		LoadAssemblies (67ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (84ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (74ms)
+		AnalyzeDomain (81ms)
+			TypeCache.Refresh (80ms)
+				TypeCache.ScanAssembly (72ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (176ms)
+	FinalizeReload (175ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (135ms)
+		SetupLoadedEditorAssemblies (136ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
@@ -115,34 +115,34 @@ Domain Reload Profiling: 393ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.432 seconds
-Refreshing native plugins compatible for Editor in 2.92 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.447 seconds
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.480 seconds
-Domain Reload Profiling: 910ms
-	BeginReloadAssembly (101ms)
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (105ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
+		CreateAndSetChildDomain (18ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (271ms)
-		LoadAssemblies (209ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (283ms)
+		LoadAssemblies (220ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (99ms)
-				TypeCache.ScanAssembly (89ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (480ms)
+	FinalizeReload (483ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
 		SetupLoadedEditorAssemblies (376ms)
@@ -151,19 +151,19 @@ Domain Reload Profiling: 910ms
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (52ms)
-			ProcessInitializeOnLoadAttributes (290ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4484 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 71 unused Assets / (62.5 KB). Loaded Objects now: 4947.
-Memory consumption went from 156.4 MB to 156.4 MB.
-Total: 3.266200 ms (FindLiveObjects: 0.282300 ms CreateObjectMapping: 0.185200 ms MarkObjects: 2.697100 ms  DeleteObjects: 0.100900 ms)
+Unloading 71 unused Assets / (63.0 KB). Loaded Objects now: 4947.
+Memory consumption went from 156.5 MB to 156.4 MB.
+Total: 3.262200 ms (FindLiveObjects: 0.314800 ms CreateObjectMapping: 0.175100 ms MarkObjects: 2.658900 ms  DeleteObjects: 0.112600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,108 +180,92 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 112849.911767 seconds.
-  path: Assets/Art/Characters/Character sprites.png
-  artifactKey: Guid(530880d20999b4f498ff4227dc813bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Character sprites.png using Guid(530880d20999b4f498ff4227dc813bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9dfeb57ee3691d2ef5ff4c793f696b') in 0.070774 seconds
+  Time since last request: 112914.708815 seconds.
+  path: Assets/Art/Characters/Materials
+  artifactKey: Guid(d3db156618fe44544bb86a433e521749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Materials using Guid(d3db156618fe44544bb86a433e521749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd8df7c67570226a30213fe0a9f9ab5') in 0.001991 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Art/Characters/Rufus_LeftIdle_5.png
-  artifactKey: Guid(8fa8362783bb42d42a01dee82ab36a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Rufus_LeftIdle_5.png using Guid(8fa8362783bb42d42a01dee82ab36a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed1a31645a45c18b94c1abb9654d1dd') in 0.014582 seconds
+  Time since last request: 0.149054 seconds.
+  path: Assets/Art/Characters/Materials/florence_float_4.mat
+  artifactKey: Guid(743f2399e0f4d1e4db370fba164845ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Characters/Materials/florence_float_4.mat using Guid(743f2399e0f4d1e4db370fba164845ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5677991b2bc42efd43693ed4e6c90bc') in 0.061233 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 158.734155 seconds.
+  path: Assets/Art/Animation/Flame eye_12_0.controller
+  artifactKey: Guid(5f03c71a6897e1e46904c2dbf0f75b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/Flame eye_12_0.controller using Guid(5f03c71a6897e1e46904c2dbf0f75b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7d9acfdeb51f6ee5669572d2a876a6') in 0.001685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 4.018620 seconds.
+  path: Assets/Art/Animation/Fae Animation.anim
+  artifactKey: Guid(b9c0d003843ca7d4185df441577b5086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/Fae Animation.anim using Guid(b9c0d003843ca7d4185df441577b5086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012888b502a9eef382e6056bdd77a3f5') in 0.000842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 576.264371 seconds.
+  path: Assets/Art/Monsters/Couchgoblin_defeat_10.png
+  artifactKey: Guid(a58de7489fe2ec04a92cd6f87f257082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Couchgoblin_defeat_10.png using Guid(a58de7489fe2ec04a92cd6f87f257082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8766163fe5252bc0a38d67b06f129fd') in 0.060446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Art/Monsters/Fae_nolampleft_3.png
+  artifactKey: Guid(4bcff4e63eccc5f4e803eb4e04043f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Fae_nolampleft_3.png using Guid(4bcff4e63eccc5f4e803eb4e04043f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49891c2c9b1d7f4e9ede00bd2775ee01') in 0.010938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Monsters/Fae_lampleft_3.png
+  artifactKey: Guid(9aae64fd13544e3409b3cf5aff53c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Fae_lampleft_3.png using Guid(9aae64fd13544e3409b3cf5aff53c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c2cf0a97d74396cae985c95c0517dc') in 0.010782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
   Time since last request: 0.000010 seconds.
-  path: Assets/Art/Characters/Rufus_rightbark_5.png
-  artifactKey: Guid(85b1a27d367595348a8dcb212f9720b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Rufus_rightbark_5.png using Guid(85b1a27d367595348a8dcb212f9720b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5099319f17ce1f870f0a8006696c8d0a') in 0.012445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Characters/Clyde_leftFloat_4.png
-  artifactKey: Guid(c7bb98fefbbb06944800629163efb700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Clyde_leftFloat_4.png using Guid(c7bb98fefbbb06944800629163efb700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a903a646031a4a0b25f9d533e8f78d1') in 0.008335 seconds
+  path: Assets/Art/Monsters/lamp.png
+  artifactKey: Guid(a3e038d21625c65469204c1fbed85a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/lamp.png using Guid(a3e038d21625c65469204c1fbed85a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baac8e08ba0bb5fc10ea1986b330340e') in 0.006869 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Art/Characters/Rufus_righttIdle_5.png
-  artifactKey: Guid(def70be4559642742b7347188e02074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Rufus_righttIdle_5.png using Guid(def70be4559642742b7347188e02074b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bb73b26ac1a0eea5ada0f2b3bda5572') in 0.011586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Art/Characters/florence_float_4.png
-  artifactKey: Guid(4b3967ad306ca8248b88f4ebe108b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/florence_float_4.png using Guid(4b3967ad306ca8248b88f4ebe108b1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ba85a2fd43909d02a309d7fd575537') in 0.011987 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/Art/Monsters/Fae_nolampleft_3_0.prefab
+  artifactKey: Guid(88c7e5dcc8bbaad40b502f9ee7e4fe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Fae_nolampleft_3_0.prefab using Guid(88c7e5dcc8bbaad40b502f9ee7e4fe73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916bf1a7dccd3e7c37e6e103aeceb8cf') in 0.005715 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Art/Characters/Luna_scaredright_2.png
-  artifactKey: Guid(7e225b91c90ade944bbf732aed1bf7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Luna_scaredright_2.png using Guid(7e225b91c90ade944bbf732aed1bf7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d6c1478a02d3b2ac3d8aded2517c64') in 0.008524 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/Art/Monsters/Monster_followright_3.png
+  artifactKey: Guid(148df65bf641df349a4605384e0293db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Monster_followright_3.png using Guid(148df65bf641df349a4605384e0293db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1c273f9644b6d71c8e778ea7b79a87') in 0.006800 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Characters/Clyde_rightFloat_4.png
-  artifactKey: Guid(0e8942f1ab4a47342a738d323c08422e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Clyde_rightFloat_4.png using Guid(0e8942f1ab4a47342a738d323c08422e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce62f82cd97893e9ad695091668a0a5') in 0.007255 seconds
+  Time since last request: 0.000009 seconds.
+  path: Assets/Art/Monsters/Couchgoblin_Rawr_12.png
+  artifactKey: Guid(a62b6943d24c87b4f96261c519b56a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Monsters/Couchgoblin_Rawr_12.png using Guid(a62b6943d24c87b4f96261c519b56a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c48d22372b68c4ad7a03d81209ed56') in 0.024540 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Characters/Luna Idlescaredright_9.png
-  artifactKey: Guid(57c6f0460e1f45d4485a46d8092ac2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Luna Idlescaredright_9.png using Guid(57c6f0460e1f45d4485a46d8092ac2ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3dd2e39f5a7530d44dab42963e2256') in 0.018611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Art/Characters/Rufus_rightwalk_6.png
-  artifactKey: Guid(c7d2cf444ea333c4b913176abd8d5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Rufus_rightwalk_6.png using Guid(c7d2cf444ea333c4b913176abd8d5ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2293b9c9dcdac7dc0c74555ed6f4d87') in 0.012491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Characters/Luna_runleft_6.png
-  artifactKey: Guid(6eb0a0c0a16b31d4b86a5feeaa8dacd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Luna_runleft_6.png using Guid(6eb0a0c0a16b31d4b86a5feeaa8dacd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90321c2319d3d5df3b58f5544d3f2f6') in 0.007260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Art/Characters/Rufus_leftrun_5.png
-  artifactKey: Guid(7ec1f08360bd4b84282f49d1a6856b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Rufus_leftrun_5.png using Guid(7ec1f08360bd4b84282f49d1a6856b76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497c16adc7b55ce2d803e842c42c16e3') in 0.007148 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Art/Characters/Rufus_leftwalk_6.png
-  artifactKey: Guid(29ab901d5d9956e448a391ae4a2ba567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Characters/Rufus_leftwalk_6.png using Guid(29ab901d5d9956e448a391ae4a2ba567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a7bd7eda78f3e45f5e8a712789cb6f') in 0.012570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 14
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
