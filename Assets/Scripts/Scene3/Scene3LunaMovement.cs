@@ -8,6 +8,8 @@ public class Scene3LunaMovement : MonoBehaviour
     private Rigidbody2D rb;         // Reference to the player's Rigidbody2D component
     private Vector2 movement;       // Stores the movement input
 
+    [SerializeField] Animator animator;
+
     void Start()
     {
         // Get the Rigidbody2D component attached to the player
@@ -27,6 +29,15 @@ public class Scene3LunaMovement : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") < 0)
         {
             transform.localScale = new Vector3(-2, transform.localScale.y, transform.localScale.z);
+        }
+
+        if(Input.GetKey(KeyCode.A)||Input.GetKey(KeyCode.D))
+        {
+            animator.SetBool("Walking", true);
+        }
+        else
+        {
+            animator.SetBool("Walking", false);
         }
     }
 

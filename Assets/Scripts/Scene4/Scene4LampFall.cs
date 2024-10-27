@@ -5,10 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Scene4LampFall : MonoBehaviour
 {
+    [SerializeField] Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,7 +25,7 @@ public class Scene4LampFall : MonoBehaviour
         }
         if (collision.gameObject.name == "Floor")
         {
-            //Play animation
+            gameObject.SetActive(false);
         }
     }
 }

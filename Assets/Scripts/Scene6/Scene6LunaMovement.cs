@@ -8,6 +8,11 @@ public class Scene6LunaMovement : MonoBehaviour
 
     [SerializeField] private GameObject LunaWalk;
     [SerializeField] private GameObject Lunacrouch;
+    [SerializeField]private Animator animator;
+    [SerializeField] private Animator CrouchAnimator;
+
+    private bool Run;
+    private bool Crouch;
 
     private Rigidbody2D rb;         // Reference to the player's Rigidbody2D component
     private Vector2 movement;       // Stores the movement input
@@ -18,10 +23,14 @@ public class Scene6LunaMovement : MonoBehaviour
         LunaWalk.SetActive(true);
         // Get the Rigidbody2D component attached to the player
         rb = GetComponent<Rigidbody2D>();
+        Run = animator.GetBool("Run");
+        Crouch = CrouchAnimator.GetBool("Crouch");
     }
 
     void Update()
     {
+        Run = animator.GetBool("Run");
+        Crouch = CrouchAnimator.GetBool("Crouch");
         // Get horizontal and vertical input (WASD or arrow keys)
         movement.x = Input.GetAxisRaw("Horizontal");  // Left/Right input
         movement.y = 0;    // Up/Down input
@@ -37,13 +46,49 @@ public class Scene6LunaMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.C))
         {
             Lunacrouch.SetActive(true);
+            CrouchAnimator.SetBool("Crouch", true);
             LunaWalk.SetActive(false);
         }
         if (Input.GetKeyUp(KeyCode.C))
         {
             Lunacrouch.SetActive(false);
+            CrouchAnimator.SetBool("Crouch",false);
             LunaWalk.SetActive(true);
         }
+        if(Run)
+        {
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+            {
+                animator.SetBool("Running", true);
+            }
+            else
+            {
+                animator.SetBool("Running", false);
+            }
+        }
+        else if (Crouch)
+        {
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+            {
+                CrouchAnimator.SetBool("Crawling", true);
+            }
+            else
+            {
+                CrouchAnimator.SetBool("Crawling", false);
+            }
+        }
+        else
+        {
+            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+            {
+                animator.SetBool("Walking", true);
+            }
+            else
+            {
+                animator.SetBool("Walking", false);
+            }
+        }
+        
     }
 
     void FixedUpdate()

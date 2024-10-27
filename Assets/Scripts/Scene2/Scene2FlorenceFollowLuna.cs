@@ -9,7 +9,13 @@ public class Scene2FlorenceFollowLuna : MonoBehaviour
     public float moveSpeed = 3f;      // The speed at which the NPC moves towards the player
     private bool shouldFollow = false; // Whether the NPC should follow the player
 
-    // Update is called once per frame
+    private SpriteRenderer spriteRenderer;
+
+    void Start()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     void Update()
     {
         // Only follow the player if the trigger has been activated
@@ -23,6 +29,18 @@ public class Scene2FlorenceFollowLuna : MonoBehaviour
             {
                 // Move the NPC towards the player's position
                 transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+
+                // Flip sprite based on movement direction
+                if (player.position.x < transform.position.x)
+                {
+                    // If player is to the left, flip sprite to face left
+                    spriteRenderer.flipX = true;
+                }
+                else
+                {
+                    // If player is to the right, reset flip to face right
+                    spriteRenderer.flipX = false;
+                }
             }
         }
     }

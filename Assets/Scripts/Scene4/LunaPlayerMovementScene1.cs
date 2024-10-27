@@ -52,16 +52,18 @@ public class LunaPlayerMovement : MonoBehaviour
         }
         if(Input.GetAxisRaw("Horizontal") > 0)
         {
-            animator.SetBool("isWalkingRight", true);
+            animator.SetBool("Walking", true);
+            transform.localScale = new Vector3(2, transform.localScale.y, transform.localScale.z);
         }
         else if (Input.GetAxisRaw("Horizontal") < 0)
         {
-            animator.SetBool("isWalkingLeft", true);
+            animator.SetBool("Walking", true);
+            transform.localScale = new Vector3(-2, transform.localScale.y, transform.localScale.z);
         }
         else
         {
-            animator.SetBool("isWalkingRight", false);
-            animator.SetBool("isWalkingLeft", false);
+            animator.SetBool("Walking", false);
+            animator.SetBool("Walking", false);
         }
     }
 
