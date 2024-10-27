@@ -14,6 +14,7 @@ public class Scene4LampFae : MonoBehaviour
     private Rigidbody2D rbKey;
     private Rigidbody2D rbLamp;
     private SpriteRenderer KeySprite;
+    private bool Triggered;
     private void Start()
     {
         rbKey = Roomkey.GetComponent<Rigidbody2D>();
@@ -21,12 +22,14 @@ public class Scene4LampFae : MonoBehaviour
         KeySprite = Roomkey.GetComponent<SpriteRenderer>();
         KeySprite.enabled = false;
         audioSource.GetComponent<AudioSource>();
+        Triggered = false;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !Triggered)
         {
             audioSource.Play();
+            Triggered = true;
             rbKey.gravityScale = 1.0f;
             KeySprite.enabled = true;
 

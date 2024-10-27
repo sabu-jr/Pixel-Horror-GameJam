@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,22 +10,18 @@ public class LunaPlayerMovement : MonoBehaviour
     [SerializeField]
     private float moveSpeed = 5f;
     [SerializeField]
-    private Transform GrounCheck;
-    [SerializeField]
-    private LayerMask groundlayer;
-    [SerializeField]
     private Transform cameraFollow;
-    [SerializeField]
-    private GameObject UICanvas;
     [SerializeField]
     private Animator animator;
     [SerializeField]
     private GameObject DoorOpenCanvas;
+    [SerializeField]
+    private TMP_Text text;
 
 
     public bool hasKey;
     private Rigidbody2D rb;
-    private float HorizontalIP; 
+    private float HorizontalIP;
     
     // Start is called before the first frame update
     void Start()
@@ -45,11 +42,11 @@ public class LunaPlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!UICanvas.gameObject.activeSelf)
-        {
+        //if (!UICanvas.gameObject.activeSelf)
+        //{
             rb.velocity = new Vector2(HorizontalIP * moveSpeed, rb.velocity.y);
    
-        }
+        //}
         if(Input.GetAxisRaw("Horizontal") > 0)
         {
             animator.SetBool("Walking", true);
@@ -79,21 +76,6 @@ public class LunaPlayerMovement : MonoBehaviour
         {
             cameraFollow.position = new Vector3(0, 0 ,-10);
         }
-        if (collision.gameObject.name == "UITrigger")
-        {
-            UICanvas.gameObject.SetActive(true);
-        }
-        if (collision.gameObject.name == "Block1Door" && hasKey)
-        {
-            
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-             Debug.Log("E pressed");
-            //int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-            //SceneManager.LoadScene(currentSceneIndex + 1);
-            }
-            DoorOpenCanvas.SetActive(true);
-        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -110,6 +92,19 @@ public class LunaPlayerMovement : MonoBehaviour
             collision.gameObject.SetActive(false);
             Destroy(collision.gameObject);
             hasKey = true;
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Door" && hasKey)
+        {
+            text.text = "Press E to open the door";
+            DoorOpenCanvas.SetActive(true);
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+                SceneManager.LoadScene(5);
+            }
         }
     }
 }

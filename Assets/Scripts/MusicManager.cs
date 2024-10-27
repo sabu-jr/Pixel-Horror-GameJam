@@ -25,7 +25,7 @@ public class MusicManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Check if the current scene is the last scene
-        if (scene.buildIndex == SceneManager.sceneCountInBuildSettings - 1)
+        if (scene.buildIndex == SceneManager.sceneCountInBuildSettings - 1 || scene.buildIndex == 6)
         {
             audioSource.Stop();
             SceneManager.sceneLoaded -= OnSceneLoaded; // Unsubscribe after stopping music in the last scene

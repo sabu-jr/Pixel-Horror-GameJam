@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class Scene4LampFall : MonoBehaviour
 {
     [SerializeField] Animator animator;
+
+    private BoxCollider2D col;
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        col = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -26,6 +29,7 @@ public class Scene4LampFall : MonoBehaviour
         if (collision.gameObject.name == "Floor")
         {
             gameObject.SetActive(false);
+            col.enabled = false;
         }
     }
 }

@@ -63,7 +63,6 @@
     <Compile Include="Assets\Scripts\Scene3\Scene3LunaMovement.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2CameraLowerMove.cs" />
     <Compile Include="Assets\Scripts\Scene5\Scene5CouchGoblinAnimations.cs" />
-    <Compile Include="Assets\Scripts\Scene4\LunaPlayerMovementScene1.cs" />
     <Compile Include="Assets\Scripts\CameraForwardMove.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -79,9 +78,11 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\Scripts\Scene4\Scene4DestroyLamp.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\Scene3\Scene3DlgTrigger.cs" />
     <Compile Include="Assets\Scripts\Scene5\Scene5CameraMove.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+    <Compile Include="Assets\Scripts\Scene4\Scene4DialogueTrigger.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
@@ -130,6 +131,7 @@
     <Compile Include="Assets\Scripts\Scene7\Scene7UseSpellBook.cs" />
     <Compile Include="Assets\Scripts\Scene5\Scene5PropSelected.cs" />
     <Compile Include="Assets\Scripts\Scene6\Scene6GrabKey.cs" />
+    <Compile Include="Assets\Scripts\Scene4\Scene4LunaPlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\Scene4\Scene4GoBack.cs" />
