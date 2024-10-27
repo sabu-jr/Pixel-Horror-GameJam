@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scene7usespellbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scene7jameslastdlg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene7jameslastdlg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene7usespellbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene7usespellbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scene7triggerdlg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene7triggerdlg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene7triggerdlg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene7booktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene7booktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene6failprogression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene6failprogression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene6grabkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene6grabkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene6lunamovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene6lunamovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene6monsterchase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,24 +35,36 @@
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene6spawnmonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene6cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene6cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5beginriddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5beginriddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5couchgoblininteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene5couchgoblininteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\scene4\\lunaplayermovementscene1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene4\\lunaplayermovementscene1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5beginriddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scene5beginriddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5couchgoblininteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scene5couchgoblininteraction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scene5propselected.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6LunaMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scene6LunaMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6FailProgression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scene6FailProgression.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6GrabKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scene6GrabKey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6CameraMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scene6CameraMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,19 +79,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Scene7JamesLastDlg.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene7JamesLastDlg.cs",
+              "RelativeDocumentMoniker": "Assets\\Scene7JamesLastDlg.cs",
+              "ToolTip": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene7JamesLastDlg.cs",
+              "RelativeToolTip": "Assets\\Scene7JamesLastDlg.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T11:23:43.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Scene7UseSpellBook.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene7UseSpellBook.cs",
               "RelativeDocumentMoniker": "Assets\\Scene7UseSpellBook.cs",
               "ToolTip": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene7UseSpellBook.cs",
               "RelativeToolTip": "Assets\\Scene7UseSpellBook.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAnAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwCMAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T12:56:09.778Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T12:56:09.778Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Scene7BookTrigger.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene7BookTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scene7BookTrigger.cs",
@@ -99,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Scene7TriggerDlg.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene7TriggerDlg.cs",
               "RelativeDocumentMoniker": "Assets\\Scene7TriggerDlg.cs",
@@ -107,12 +123,11 @@
               "RelativeToolTip": "Assets\\Scene7TriggerDlg.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T12:40:23.725Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T12:40:23.725Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Scene6LunaMovement.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6LunaMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scene6LunaMovement.cs",
@@ -124,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Scene6FailProgression.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6FailProgression.cs",
               "RelativeDocumentMoniker": "Assets\\Scene6FailProgression.cs",
@@ -136,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Scene2DialogueController.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene2\\Scene2DialogueController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene2\\Scene2DialogueController.cs",
@@ -148,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Scene6GrabKey.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6GrabKey.cs",
               "RelativeDocumentMoniker": "Assets\\Scene6GrabKey.cs",
@@ -160,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Scene6MonsterChase.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6MonsterChase.cs",
               "RelativeDocumentMoniker": "Assets\\Scene6MonsterChase.cs",
@@ -172,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "Scene6SpawnMonster.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6SpawnMonster.cs",
               "RelativeDocumentMoniker": "Assets\\Scene6SpawnMonster.cs",
@@ -184,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Scene6CameraMovement.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scene6CameraMovement.cs",
@@ -196,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "Scene5BeginRiddle.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5BeginRiddle.cs",
               "RelativeDocumentMoniker": "Assets\\Scene5BeginRiddle.cs",
@@ -208,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Scene3FlorenceFollowLuna.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene3\\Scene3FlorenceFollowLuna.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene3\\Scene3FlorenceFollowLuna.cs",
@@ -220,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Scene5PropSelected.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5PropSelected.cs",
               "RelativeDocumentMoniker": "Assets\\Scene5PropSelected.cs",
@@ -232,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "Scene5CouchGoblinInteraction.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene5CouchGoblinInteraction.cs",
               "RelativeDocumentMoniker": "Assets\\Scene5CouchGoblinInteraction.cs",
@@ -244,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 8,
               "Title": "LunaPlayerMovementScene1.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\LunaPlayerMovementScene1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\LunaPlayerMovementScene1.cs",
