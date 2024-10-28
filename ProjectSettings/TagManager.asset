@@ -49,3 +49,6 @@ TagManager:
   - name: Actor
     uniqueID: 323327933
     locked: 0
+  - name: forewall
+    uniqueID: 712989989
+    locked: 0

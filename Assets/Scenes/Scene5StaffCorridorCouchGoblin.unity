@@ -776,23 +776,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -860
+      value: 193.75
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -137.5
+      value: 237.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.4825866
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1110
+      value: -550
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 132.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: npc1
@@ -886,6 +898,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueBox
       objectReference: {fileID: 0}
+    - target: {fileID: 8938099176754978858, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9534,6 +9550,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1288531049}
+    - target: {fileID: 6346601334740158822, guid: c7bf586688364f94d8a6d58c5992ee7d, type: 3}
+      propertyPath: m_GravityScale
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11233,35 +11253,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -860
+      value: 193.75
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -201.5
+      value: 237.5
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1.8172944
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2.0359938
+      value: 1.85
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.6032333
+      value: 0.5481262
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1110
+      value: -550
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 100.75
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: npc1
@@ -11353,6 +11373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueBox
       objectReference: {fileID: 0}
+    - target: {fileID: 8938099176754978858, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
