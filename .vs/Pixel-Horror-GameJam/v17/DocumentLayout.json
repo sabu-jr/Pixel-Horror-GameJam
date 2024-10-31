@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scene6triggercrouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\onpausepress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\onpausepress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scene6triggercrouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scene6triggercrouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\scene6\\scene6cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\scene6\\scene6cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene6\\scene6cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -79,6 +83,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OnPausePress.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\OnPausePress.cs",
+              "RelativeDocumentMoniker": "Assets\\OnPausePress.cs",
+              "ToolTip": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\OnPausePress.cs",
+              "RelativeToolTip": "Assets\\OnPausePress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:17:14.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Scene6TriggerCrouch.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene6TriggerCrouch.cs",
               "RelativeDocumentMoniker": "Assets\\Scene6TriggerCrouch.cs",
@@ -86,12 +103,11 @@
               "RelativeToolTip": "Assets\\Scene6TriggerCrouch.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwCMAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:40:28.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T18:40:28.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Scene6CameraMovement.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene6\\Scene6CameraMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene6\\Scene6CameraMovement.cs",
@@ -99,12 +115,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Scene6\\Scene6CameraMovement.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T18:29:42.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-28T18:29:42.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Scene3DlgTrigger.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene3\\Scene3DlgTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene3\\Scene3DlgTrigger.cs",
@@ -116,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Scene3DoorTriggers.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene3\\Scene3DoorTriggers.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene3\\Scene3DoorTriggers.cs",
@@ -128,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Scene3StairsProgression.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene3\\Scene3StairsProgression.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene3\\Scene3StairsProgression.cs",
@@ -140,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Scene4LevelGoBack.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\Scene4LevelGoBack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\Scene4LevelGoBack.cs",
@@ -152,7 +167,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Scene4DialogueTrigger.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\Scene4DialogueTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\Scene4DialogueTrigger.cs",
@@ -164,7 +179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Scene4LunaPlayerMovement.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\Scene4LunaPlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\Scene4LunaPlayerMovement.cs",
@@ -176,7 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "LunaPlayerMovementScene1.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\LunaPlayerMovementScene1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\LunaPlayerMovementScene1.cs",
@@ -188,7 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Scene4GoBack.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\Scene4GoBack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\Scene4GoBack.cs",
@@ -200,7 +215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Scene4LampFae.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\Scene4LampFae.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\Scene4LampFae.cs",
@@ -212,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Scene4LampFall.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene4\\Scene4LampFall.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene4\\Scene4LampFall.cs",
@@ -224,7 +239,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Scene3DlgTrigger.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scene3DlgTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scene3DlgTrigger.cs",
@@ -236,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
@@ -248,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Scene6FailProgression.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene6\\Scene6FailProgression.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene6\\Scene6FailProgression.cs",
@@ -260,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Scene6SpawnMonster.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene6\\Scene6SpawnMonster.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene6\\Scene6SpawnMonster.cs",

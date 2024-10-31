@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Scene4\Scene4DestroyLamp.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Scene3\Scene3DlgTrigger.cs" />
+    <Compile Include="Assets\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Scene5\Scene5CameraMove.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="Assets\Scripts\Scene4\Scene4GoBack.cs" />
     <Compile Include="Assets\Scripts\GameOverButtonControl.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2Progression.cs" />
+    <Compile Include="Assets\OnPausePress.cs" />
     <Compile Include="Assets\Scripts\Scene2\Scene2StoryController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Scripts\Scene3\Scene3Progression.cs" />
