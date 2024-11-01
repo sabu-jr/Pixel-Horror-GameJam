@@ -12179,6 +12179,46 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.19607845
       objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 193.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 237.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -570
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3633414999016737863, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: npc1
       value: 
