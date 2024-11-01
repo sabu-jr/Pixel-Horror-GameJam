@@ -1,0 +1,410 @@
+fileFormatVersion: 2
+guid: a12a213358cf6c74db7da846552f587f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c497467f9e9044d46bd6f06b1ba06e15
+      internalID: -650956822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b10909d9a5fc945aa2ff28cca47a19
+      internalID: -1026936910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_3
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c710fe4bfe885bf498b756e4998b870b
+      internalID: 213679727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d87489a30ec25c4497f49bdfc734180
+      internalID: -2139329601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_5
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6cec867f964384985c370c3f383639
+      internalID: 2073055815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242d364e72a9a3045a446cdb98d9bded
+      internalID: 462849733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d042a61ea97d5a47beaa2ebed835b74
+      internalID: -205933782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bee54d38d05fc43a9c2f2c8a3a195b
+      internalID: 709097450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Luna Idlescaredleft_9_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      physicsShape:
+      - - {x: 0, y: -15}
+        - {x: 7.5, y: 0}
+        - {x: 0, y: 15}
+        - {x: -7.5, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c697e00bd75814d80c648cd064a581
+      internalID: 1984015545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Luna Idlescaredleft_9_0: -650956822
+      Luna Idlescaredleft_9_1: 709097450
+      Luna Idlescaredleft_9_2: -1026936910
+      Luna Idlescaredleft_9_3: 213679727
+      Luna Idlescaredleft_9_4: -2139329601
+      Luna Idlescaredleft_9_5: 2073055815
+      Luna Idlescaredleft_9_6: 462849733
+      Luna Idlescaredleft_9_7: -205933782
+      Luna Idlescaredleft_9_8: 1984015545
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
