@@ -9,6 +9,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/Scene2FlorenceAppears.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogueControllerTrap1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene3/Scene3DlgTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark01.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/Scene2FlorenceFollowLuna.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,6 +67,8 @@
       <workItem from="1729823540152" duration="4713000" />
       <workItem from="1730449216716" duration="402000" />
       <workItem from="1730450170617" duration="144000" />
+      <workItem from="1730453944406" duration="9000" />
+      <workItem from="1730454452908" duration="138000" />
     </task>
     <servers />
   </component>
