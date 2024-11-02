@@ -7,17 +7,20 @@ public class Scene7JamesLastDlg : MonoBehaviour
 {
 
     [SerializeField] GameObject LastDlgCanvas;
+    private bool Trigger;
     // Start is called before the first frame update
     void Start()
     {
+        Trigger = false;
         LastDlgCanvas.SetActive(false);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !Trigger)
         {
             LastDlgCanvas.SetActive(true);
+            Trigger = true;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)

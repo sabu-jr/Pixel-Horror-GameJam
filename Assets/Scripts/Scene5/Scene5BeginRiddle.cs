@@ -8,16 +8,22 @@ public class Scene5BeginRiddle : MonoBehaviour
 {
     [SerializeField] GameObject InfoCanvas;
     [SerializeField] GameObject Pass;
+    private bool PassTrigger;
     [SerializeField] GameObject Fail;
+    private bool FailTrigger;
     [SerializeField] GameObject DlgSystem;
     [SerializeField] TMP_Text tmpText;
     [SerializeField] GameObject attack;
     // Start is called before the first frame update
+
+    [SerializeField] Animator CouchGoblinAnimator;
     private bool Beginriddle;
 
     private int index;
     void Start()
     {
+        PassTrigger = false;
+        FailTrigger = false;
         InfoCanvas.SetActive(false);
         Pass.SetActive(false);
         Fail.SetActive(false);
@@ -44,16 +50,20 @@ public class Scene5BeginRiddle : MonoBehaviour
         {
             if (collision.gameObject.name == "Couchgoblin")
             {
-                if (index == 1 || index == 2)
+                if ((index == 1 || index == 2) && !FailTrigger)
                 {
                     //fail
+                    FailTrigger = true;
                     attack.SetActive(true);
                     Fail.SetActive(true);
                 }
-                if (index == 3)
+                if (index == 3 && !PassTrigger)
                 {
                     //pass
-                    collision.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                    PassTrigger = true;
+                    CouchGoblinAnimator.SetBool("Defeat",true);
+                    //collision.gameObject.GetComponent<BoxCollider2D>().enabled = false;
+                    collision.gameObject.layer = 7;
                     Pass.SetActive(true);
                 }
             }

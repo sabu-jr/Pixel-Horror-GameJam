@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Scene2FlorenceAppears : MonoBehaviour
 {
-    [SerializeField] SpriteRenderer SpriteRenderer;
+    //[SerializeField] SpriteRenderer SpriteRenderer;
     [SerializeField] GameObject UICanvas;
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class Scene2FlorenceAppears : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            SpriteRenderer.enabled = true;
+           // SpriteRenderer.enabled = true;
             UICanvas.SetActive(true);
         }
     }

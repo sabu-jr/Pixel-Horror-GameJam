@@ -7010,7 +7010,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.009897888, y: -0.26260212}
+  m_Offset: {x: -0.029038489, y: -0.51650906}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7021,7 +7021,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2406653, y: 2.4939535}
+  m_Size: {x: 2.3508239, y: 3.783019}
   m_EdgeRadius: 0
 --- !u!1 &658702311
 GameObject:
@@ -7433,8 +7433,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 342440973}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!58 &780394387
-CircleCollider2D:
+--- !u!61 &780394387
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -7465,9 +7465,19 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.27167517}
+  m_Offset: {x: -0.035445333, y: -0.37084198}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.73333335, y: 1.0333333}
+    newSize: {x: 0.73333335, y: 1.0333333}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.788342
+  m_Size: {x: 2.2220519, y: 2.9493518}
+  m_EdgeRadius: 0
 --- !u!1 &781436585
 GameObject:
   m_ObjectHideFlags: 0
@@ -8498,7 +8508,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.017675102, y: -0.296942}
+  m_Offset: {x: -0.11904383, y: -0.592752}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8509,7 +8519,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8494022, y: 2.2501345}
+  m_Size: {x: 2.2849526, y: 3.5377793}
   m_EdgeRadius: 0
 --- !u!1 &1047036443
 GameObject:
@@ -9568,6 +9578,7 @@ MonoBehaviour:
   DlgSystem: {fileID: 573126956}
   tmpText: {fileID: 442291509}
   attack: {fileID: 1815315838}
+  CouchGoblinAnimator: {fileID: 1459988552}
 --- !u!1 &1304368655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1463911077607639205, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
@@ -10013,10 +10024,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 20
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 3
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -10027,7 +10038,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 1
 --- !u!212 &1459988548
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10089,7 +10100,7 @@ Transform:
   m_GameObject: {fileID: 1459988545}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.02, y: -1.39, z: 0}
+  m_LocalPosition: {x: 19.02, y: -0.82, z: 0}
   m_LocalScale: {x: 2.8221, y: 2.966119, z: 0.7669749}
   m_ConstrainProportionsScale: 1
   m_Children:

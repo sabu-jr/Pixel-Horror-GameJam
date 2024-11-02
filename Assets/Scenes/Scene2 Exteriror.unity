@@ -10422,7 +10422,7 @@ GameObject:
   - component: {fileID: 863986573}
   - component: {fileID: 863986574}
   - component: {fileID: 863986575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Luna
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -10865,7 +10865,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3441b1b77489954cb904cae7c66a0a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteRenderer: {fileID: 1122265588}
   UICanvas: {fileID: 9021894588834895727}
 --- !u!61 &1122265587
 BoxCollider2D:
@@ -10919,7 +10918,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122265585}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12129,7 +12128,7 @@ GameObject:
   - component: {fileID: 1933020268}
   - component: {fileID: 1933020267}
   - component: {fileID: 1933020271}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RufusTD
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -924,7 +924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[1].speakerName
-      value: Florence
+      value: Florance
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[0].speakerPortrait
