@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextSelector_B.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/Scene2FlorenceFollowLuna.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraForwardMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene5/Scene5PropSelected.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/Scene2DialogueController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene2/Scene2RufusFollowLuna.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Scene6/Scene6CameraMovement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,6 +70,7 @@
       <workItem from="1730450170617" duration="144000" />
       <workItem from="1730453944406" duration="9000" />
       <workItem from="1730454452908" duration="138000" />
+      <workItem from="1730588837575" duration="175000" />
     </task>
     <servers />
   </component>

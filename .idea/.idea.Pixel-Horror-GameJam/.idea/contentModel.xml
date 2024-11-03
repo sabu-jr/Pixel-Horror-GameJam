@@ -24,9 +24,6 @@
             <e p="scriptTexttest.cs" t="Include" />
           </e>
         </e>
-        <e p="OnPausePress.cs" t="Include" />
-        <e p="PauseMenu.cs" t="Include" />
-        <e p="Scene6TriggerCrouch.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="CameraBackwardMove.cs" t="Include" />
           <e p="CameraForwardMove.cs" t="Include" />
@@ -34,6 +31,8 @@
           <e p="GameOverButtonControl.cs" t="Include" />
           <e p="MainMenuScript.cs" t="Include" />
           <e p="MusicManager.cs" t="Include" />
+          <e p="OnPausePress.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="Scene1" t="Include">
             <e p="Scene1StoryController.cs" t="Include" />
           </e>
@@ -86,6 +85,7 @@
             <e p="Scene6LunaMovement.cs" t="Include" />
             <e p="Scene6MonsterChase.cs" t="Include" />
             <e p="Scene6SpawnMonster.cs" t="Include" />
+            <e p="Scene6TriggerCrouch.cs" t="Include" />
           </e>
           <e p="Scene7" t="Include">
             <e p="Scene7BookTrigger.cs" t="Include" />
