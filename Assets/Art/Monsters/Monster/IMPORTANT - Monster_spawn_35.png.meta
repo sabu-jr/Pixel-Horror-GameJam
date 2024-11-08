@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 483468106c38ee44c8357361fee96704
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83020759816798e4cbdaaf6e88d42c3d
+      internalID: -868894268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 312
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f18387fdfabc2b498313148794c4787
+      internalID: -887475337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 312
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9602eda70dcbe1744995ac4f7eaec769
+      internalID: -1735635658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 312
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b24984f933a084691e25acb0eb5556
+      internalID: -1940138071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 312
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ab46a459dd67144918ec3ebf2a837f
+      internalID: 8704576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f060e6008905914781afbadf653df97
+      internalID: 12678163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_6
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 260
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da9bcc5828bc3d4ab4dd0a00f402e2d
+      internalID: -1959395355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 260
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03afab84d28108a44ae161c61871fc01
+      internalID: -1105923336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 260
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42ea0ddb6a5b5e4eb5d439cfc6eed23
+      internalID: 344234033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 260
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c847a37d0d67be74f8fa9dd726b6c1f5
+      internalID: -1151864747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d3066cb6d0d444cb96bbd23bdad3df
+      internalID: 1152853185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_11
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 208
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9352949a98cd80149a48b71bb6de9978
+      internalID: -2093455174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 208
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da5ddc910eb51c6449948e0d9f9c3c2c
+      internalID: 476514548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 208
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96438b1151aa04049b097c10ccd16488
+      internalID: -1232703127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_14
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 208
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69b4d65e24b7154bb94d4d7639fab39
+      internalID: 609687388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 156
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0309dc4a99691c546ab18ae999e9ac38
+      internalID: -1223270322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_16
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 156
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5309f9399c4e71340a979be20ebabe81
+      internalID: 1511868984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 156
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f58b34f413ac1841ad792725b853ff3
+      internalID: 1042190350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_18
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 156
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d1cdb6e6415ce469c12e024ce1e32e
+      internalID: -1268896072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_19
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 156
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe423f67226e0345a9582d870dca893
+      internalID: -431036862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7353ec94e73bb554bbc09378c16beb1f
+      internalID: 758132510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_21
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 104
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b78ff6a48eb7340a697e09f7aa3839
+      internalID: -1704079690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 104
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b5777cce5b09d44fa82ed45d4d82339
+      internalID: -728410019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 104
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7753ad2cd3e302f4585665815b449957
+      internalID: 1316603210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_24
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 104
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c4794f308091c4fac1430ee919a59a
+      internalID: -486063006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de42b0cebf42c0e4f9c6bfd6ef0c9869
+      internalID: -400056785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_26
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 52
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d473d49a66c3062428e861fde36a65ad
+      internalID: -76667789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_27
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 52
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e02c11494de1a2499f353f62710d9d3
+      internalID: -1262824623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_28
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 52
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a4b4acb0f426f43b081d778c4ce9cd
+      internalID: 1413488571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_29
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 52
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac094d2aa51bf41478762ef3f05f105a
+      internalID: 1198198588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45aa5aa93ec2c1a489ebb018c1d7a08a
+      internalID: 791683227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_31
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b21cb036e674474e97040af8c4f5d5f
+      internalID: -2138118011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_32
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e73c3b8300d0447aa32128daf69d1a
+      internalID: 2082324599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_33
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef93146a6e3c1a94c8e454c65246df70
+      internalID: 1628327993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMPORTANT - Monster_spawn_35_34
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 73
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677874f5dcb9f1243b55149aa09c8ce4
+      internalID: 448592734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IMPORTANT - Monster_spawn_35_0: -868894268
+      IMPORTANT - Monster_spawn_35_1: -887475337
+      IMPORTANT - Monster_spawn_35_10: 1152853185
+      IMPORTANT - Monster_spawn_35_11: -2093455174
+      IMPORTANT - Monster_spawn_35_12: 476514548
+      IMPORTANT - Monster_spawn_35_13: -1232703127
+      IMPORTANT - Monster_spawn_35_14: 609687388
+      IMPORTANT - Monster_spawn_35_15: -1223270322
+      IMPORTANT - Monster_spawn_35_16: 1511868984
+      IMPORTANT - Monster_spawn_35_17: 1042190350
+      IMPORTANT - Monster_spawn_35_18: -1268896072
+      IMPORTANT - Monster_spawn_35_19: -431036862
+      IMPORTANT - Monster_spawn_35_2: -1735635658
+      IMPORTANT - Monster_spawn_35_20: 758132510
+      IMPORTANT - Monster_spawn_35_21: -1704079690
+      IMPORTANT - Monster_spawn_35_22: -728410019
+      IMPORTANT - Monster_spawn_35_23: 1316603210
+      IMPORTANT - Monster_spawn_35_24: -486063006
+      IMPORTANT - Monster_spawn_35_25: -400056785
+      IMPORTANT - Monster_spawn_35_26: -76667789
+      IMPORTANT - Monster_spawn_35_27: -1262824623
+      IMPORTANT - Monster_spawn_35_28: 1413488571
+      IMPORTANT - Monster_spawn_35_29: 1198198588
+      IMPORTANT - Monster_spawn_35_3: -1940138071
+      IMPORTANT - Monster_spawn_35_30: 791683227
+      IMPORTANT - Monster_spawn_35_31: -2138118011
+      IMPORTANT - Monster_spawn_35_32: 2082324599
+      IMPORTANT - Monster_spawn_35_33: 1628327993
+      IMPORTANT - Monster_spawn_35_34: 448592734
+      IMPORTANT - Monster_spawn_35_4: 8704576
+      IMPORTANT - Monster_spawn_35_5: 12678163
+      IMPORTANT - Monster_spawn_35_6: -1959395355
+      IMPORTANT - Monster_spawn_35_7: -1105923336
+      IMPORTANT - Monster_spawn_35_8: 344234033
+      IMPORTANT - Monster_spawn_35_9: -1151864747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

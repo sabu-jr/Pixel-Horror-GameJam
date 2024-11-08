@@ -12241,7 +12241,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[1].sentence
-      value: That fae... she'll throw the lamp, but only to hit you in the head!
+      value: There's something inside the big lamp... That fae, she'll throw it,
+        but only to hit you in the head!
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[0].speakerName

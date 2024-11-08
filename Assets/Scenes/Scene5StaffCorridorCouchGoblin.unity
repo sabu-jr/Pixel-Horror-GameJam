@@ -752,7 +752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1463911077607639205, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Name
-      value: Pass Dialogue System
+      value: Pass Dlg
       objectReference: {fileID: 0}
     - target: {fileID: 2384598168292842002, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Color.b
@@ -820,9 +820,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[0].sentence
-      value: You are wiser than I thought human. I'll let you pass, but just know
-        there are creatures far more dangerous than me ahead. A true wise soul would
-        turn around.
+      value: You are more clever than I thought human. I'll let you pass, but just
+        know there are creatures far more dangerous than me ahead. A true wise soul
+        would turn around.
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[1].sentence
@@ -11237,7 +11237,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1463911077607639205, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Name
-      value: Fail Dialogue System
+      value: Fail Dlg
       objectReference: {fileID: 0}
     - target: {fileID: 2384598168292842002, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Color.b
@@ -11305,7 +11305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[0].sentence
-      value: Silly human. You will pay the prize of your stupidity!
+      value: ' Silly human. You will pay the prize of your stupidity!'
       objectReference: {fileID: 0}
     - target: {fileID: 6764938469700365806, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: dialogues.Array.data[1].sentence
@@ -11492,7 +11492,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1463911077607639205, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Name
-      value: Dialogue System
+      value: CouchGoblinDlg
       objectReference: {fileID: 0}
     - target: {fileID: 2384598168292842002, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Color.b

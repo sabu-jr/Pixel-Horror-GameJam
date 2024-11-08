@@ -8,7 +8,6 @@ using UnityEngine.SceneManagement;
 public class Scene6GrabKey : MonoBehaviour
 {
     [SerializeField] GameObject DlgCanvas;
-    [SerializeField] GameObject MonsterChaseDlg;
     [SerializeField] GameObject InfoCanvas;
     [SerializeField] TMP_Text text;
 
@@ -17,7 +16,6 @@ public class Scene6GrabKey : MonoBehaviour
     void Start()
     {
         DlgCanvas.SetActive(false);
-        MonsterChaseDlg.SetActive(false);
         HasKey = false;
         InfoCanvas.SetActive(false);
     }
@@ -34,11 +32,6 @@ public class Scene6GrabKey : MonoBehaviour
             HasKey = true;
             DlgCanvas.SetActive(true);
             Destroy(collision.gameObject);
-        }
-        if(collision.gameObject.name == "Clyde")
-        {
-            MonsterChaseDlg.SetActive(true) ;
-            InfoCanvas.SetActive(true) ;
         }
     }
     private void OnTriggerStay2D(Collider2D collision)

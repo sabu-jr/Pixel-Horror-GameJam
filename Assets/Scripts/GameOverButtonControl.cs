@@ -8,7 +8,7 @@ public class GameOverButtonControl : MonoBehaviour
     // Start is called before the first frame update
     public void onPressRestart()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
     public void onPressQuit()
     {

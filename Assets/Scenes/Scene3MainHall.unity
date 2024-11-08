@@ -840,7 +840,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1463911077607639205, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Name
-      value: Scene3DoorDialoges
+      value: Scene3DoorDlg
       objectReference: {fileID: 0}
     - target: {fileID: 2384598168292842002, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Color.b
@@ -1416,7 +1416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1463911077607639205, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_Name
-      value: Scene3IntoDialogueSystem
+      value: Scene3IntoDlg
       objectReference: {fileID: 0}
     - target: {fileID: 1463911077607639205, guid: 006e9a55ce2e6cb4c9a8f9810b7c5005, type: 3}
       propertyPath: m_IsActive
