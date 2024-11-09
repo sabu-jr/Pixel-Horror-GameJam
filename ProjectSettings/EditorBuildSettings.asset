@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene7FinalRoom.unity
     guid: 961004c8cad95214d9ff48df07cb8277
   - enabled: 1
-    path: Assets/Scenes/Scene8TheEnd.unity
+    path: Assets/Scenes/Scene9TheEnd.unity
     guid: 611f5db4843b5d048938856fc57917e3
   - enabled: 1
     path: Assets/Scenes/GameOver.unity

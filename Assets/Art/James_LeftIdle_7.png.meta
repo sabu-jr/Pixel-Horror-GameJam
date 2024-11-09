@@ -139,12 +139,12 @@ TextureImporter:
       name: James_LeftIdle_7_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 13
-        height: 33
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,12 +160,12 @@ TextureImporter:
       name: James_LeftIdle_7_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 15
         y: 0
-        width: 12
-        height: 32
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: James_LeftIdle_7_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 30
         y: 0
-        width: 13
-        height: 33
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,12 +202,12 @@ TextureImporter:
       name: James_LeftIdle_7_3
       rect:
         serializedVersion: 2
-        x: 47
+        x: 45
         y: 0
-        width: 13
-        height: 33
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: James_LeftIdle_7_4
       rect:
         serializedVersion: 2
-        x: 62
+        x: 60
         y: 0
-        width: 13
-        height: 33
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -244,12 +244,12 @@ TextureImporter:
       name: James_LeftIdle_7_5
       rect:
         serializedVersion: 2
-        x: 77
+        x: 75
         y: 0
-        width: 13
-        height: 33
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -265,12 +265,12 @@ TextureImporter:
       name: James_LeftIdle_7_6
       rect:
         serializedVersion: 2
-        x: 92
+        x: 90
         y: 0
-        width: 13
-        height: 33
+        width: 15
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
