@@ -3,27 +3,31 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\scene6\\scene6spawnmonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\scene6\\scene6spawnmonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene6\\scene6spawnmonster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\scene6\\scene6triggercrouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\scene9\\scene9buttonpress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene9\\scene9buttonpress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\scene6\\scene6triggercrouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene6\\scene6triggercrouch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\scene6\\scene6grabkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\scene6\\scene6grabkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene6\\scene6grabkey.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\scene7\\scene7booktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\scene7\\scene7booktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene7\\scene7booktrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\gameoverbuttoncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\gameoverbuttoncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameoverbuttoncontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|d:\\unityprojects\\new folder\\pixel-horror-gamejam\\assets\\scripts\\scene7\\scene7usespellbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\assets\\scripts\\scene7\\scene7usespellbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7C39E8CD-1A9A-15A5-A825-9D8F7FABA5FA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scene7\\scene7usespellbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Scene9ButtonPress.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene9\\Scene9ButtonPress.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Scene9\\Scene9ButtonPress.cs",
+              "ToolTip": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene9\\Scene9ButtonPress.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Scene9\\Scene9ButtonPress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T22:08:18.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Scene6TriggerCrouch.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene6\\Scene6TriggerCrouch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene6\\Scene6TriggerCrouch.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Scene6\\Scene6TriggerCrouch.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T13:32:11.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T13:32:11.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Scene6GrabKey.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene6\\Scene6GrabKey.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene6\\Scene6GrabKey.cs",
@@ -59,8 +75,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Scene6\\Scene6GrabKey.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAgwBEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:57:48.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:57:48.606Z"
             },
             {
               "$type": "Document",
@@ -70,14 +85,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene6\\Scene6SpawnMonster.cs",
               "ToolTip": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene6\\Scene6SpawnMonster.cs",
               "RelativeToolTip": "Assets\\Scripts\\Scene6\\Scene6SpawnMonster.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwDkAAAAJAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T12:39:59.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Scene7UseSpellBook.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene7\\Scene7UseSpellBook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene7\\Scene7UseSpellBook.cs",
@@ -85,12 +100,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Scene7\\Scene7UseSpellBook.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAzwCYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:10:59.425Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:10:59.425Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Scene7BookTrigger.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\Scene7\\Scene7BookTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Scene7\\Scene7BookTrigger.cs",
@@ -98,12 +112,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Scene7\\Scene7BookTrigger.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T12:10:38.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T12:10:38.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GameOverButtonControl.cs",
               "DocumentMoniker": "D:\\UnityProjects\\New folder\\Pixel-Horror-GameJam\\Assets\\Scripts\\GameOverButtonControl.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverButtonControl.cs",
@@ -111,8 +124,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameOverButtonControl.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T11:43:34.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T11:43:34.442Z"
             }
           ]
         }

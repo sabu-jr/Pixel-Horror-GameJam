@@ -11,6 +11,7 @@ public class Scene6SpawnMonster : MonoBehaviour
     [SerializeField] GameObject MonsterSpawnDlg;
     [SerializeField] GameObject CameraBound;
     [SerializeField] Collider2D ClydeCollider;
+    [SerializeField] AudioSource MonsterAudio;
 
     private Animator SpawnAnimator;
     private bool Triggered;
@@ -38,6 +39,7 @@ public class Scene6SpawnMonster : MonoBehaviour
             CameraBound.SetActive(false);
             CameraFollow.position = new Vector3(40.8f, 0, -10f);
             SpawnAnimator.enabled = true;
+            MonsterAudio.Play();
             StartCoroutine(WaitForAnimation());
             animator.SetBool("Run",true);
         }

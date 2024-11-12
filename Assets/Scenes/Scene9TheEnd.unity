@@ -680,7 +680,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1402195680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d29927a35d7b74d4f83c22b46d5b733d, type: 3}
+  m_Script: {fileID: 11500000, guid: 6931fb21c40734d4eb509f5aa4efa675, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1980195825
@@ -767,7 +767,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1402195685}
-        m_TargetAssemblyTypeName: Scene8ButtonPress, Assembly-CSharp
+        m_TargetAssemblyTypeName: Scene9ButtonPress, Assembly-CSharp
         m_MethodName: PressButton
         m_Mode: 1
         m_Arguments:
